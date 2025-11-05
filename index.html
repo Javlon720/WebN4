@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <div class="container">
+        <div class="header">
+            <h1>Qur'on </h1>
+            <p>Tinglang</p>
+        </div>
+
+
+        <div class="search-box">
+            <div class="search-controls">
+                <input id="surahInput" type="number">
+                <button id="loadSurah">Suralarni ko'rsatish</button>
+                <button id="showAllSurahs">Barcha suralar</button>
+            </div>
+        </div>
+
+
+        <div class="content-area" id="contentArea">
+            <div class="loading">Qur'oni Karimdan sura tanlang</div>
+             <div class="surah_list">
+                    <div class="surah-card" onclick="loadSurahFromCard(1)">
+                    <h3>سُورَةُ ٱلْفَاتِحَةِ</h3>
+                    <p>Al-Faatiha</p>
+                    <p>The Opening</p>
+                    <p>7 oyat</p>
+                </div>
+             </div>
+        </div>
+
+
+     </div>  
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
